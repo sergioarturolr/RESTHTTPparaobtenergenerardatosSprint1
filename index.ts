@@ -26,3 +26,11 @@ console.log('Variables de tipo numérico')
 console.log(x)
 console.log(y)
 console.log(z)
+
+/**
+ * Variables de tipo cadena
+ */
+let firstName: string = "Sergio";
+let sentence: string = `My name is ${firstName}.
+    I am new to TypeScript.`;
+console.log(sentence);
