@@ -34,3 +34,19 @@ let firstName: string = "Sergio";
 let sentence: string = `My name is ${firstName}.
     I am new to TypeScript.`;
 console.log(sentence);
+
+/**
+ * Enumeraciones
+ */
+
+enum ContractStatus {
+    Permanent = 1,
+    Temp,
+    Apprentice
+}
+
+let employeeStatus: ContractStatus = ContractStatus.Temp;
+console.log('Enumeraciones')
+console.log(employeeStatus);
+
+console.log(ContractStatus[employeeStatus]);
