@@ -50,3 +50,19 @@ console.log('Enumeraciones')
 console.log(employeeStatus);
 
 console.log(ContractStatus[employeeStatus]);
+
+/**
+ * Tipos any y unkonwn
+ */
+
+let randomValue: any = 10;
+randomValue = 'Mateo';   // OK
+randomValue = true;      // OK
+console.log('Variables de tipo any')
+console.log(randomValue)
+
+let unknownValue: unknown = 10;
+unknownValue = true;
+unknownValue = 'Mateo';
+console.log('Variables de tipo unknown')
+console.log(unknownValue)
