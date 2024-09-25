@@ -85,3 +85,21 @@ function add(x: number | string, y: number | string) {
 }
 console.log(add('one', 'two'));  //* Returns "onetwo"
 console.log(add(1, 2));          //* Returns 3
+
+/**
+ * Tipos de intersección
+ */
+
+interface Employee {
+    employeeID: number;
+    age: number;
+  }
+  interface Manager {
+    stockPlan: boolean;
+  }
+  type ManagementEmployee = Employee & Manager;
+  let newManager: ManagementEmployee = {
+      employeeID: 12345,
+      age: 34,
+      stockPlan: true
+  };
