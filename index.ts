@@ -123,3 +123,13 @@ diceRoll = 1;    //* Valid
 diceRoll = 2;    //* Valid
 //diceRoll = 7;    //* Invalid type is not assigable to type dice
 
+/**
+ * Matrices
+ */
+
+let list: number[] = [1, 2, 3];
+console.log(list)
+
+let listTwo: Array<number> = [1, 2, 3];
+console.log(listTwo)
+
