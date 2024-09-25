@@ -133,3 +133,15 @@ console.log(list)
 let listTwo: Array<number> = [1, 2, 3];
 console.log(listTwo)
 
+/**
+ * Tuplas
+ */
+
+let person1: [string, number] = ['Marcia', 35];
+console.log(person1)
+
+//let person2: [string, number] = ['Marcia', 35, true];//error: is not asiggnable to type string,numbre
+
+//let person3: [string, number] = [35, 'Marcia'];//error: type number is not asiggnable to string and string is not assignable to number
+
+
